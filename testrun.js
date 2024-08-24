@@ -61,7 +61,7 @@ function t7879(){
   
   let count = 0
 
-  var sheet = SpreadsheetApp.openById("1MTrqGvbcVY2D4foCWVUaaH83Fc5KVuOOyqBpXN7tUdA").getSheetByName("missing address active")
+  var sheet = SpreadsheetApp.openById("").getSheetByName("missing address active")
   // var intakeblockColumn = sheet.getRange('G1:G500')
   // var addressIntakeColumn = sheet.getRange('H1:H500')
   var testColumn = sheet.getRange('K1:K500')
@@ -117,7 +117,7 @@ function t7879(){
 
 
 // function trimDates() {
-//   var spreadsheetId = "1sfHtQanFG5i4fSfgVg7YL9YLRABvrGMeBSO5YtQdk7c";
+//   var spreadsheetId = "";
 //   var sheetName = "grad resolved";
 //   var sheet = SpreadsheetApp.openById(spreadsheetId).getSheetByName(sheetName);
 //   var dateColumn = sheet.getRange('K1:K' + sheet.getLastRow());
