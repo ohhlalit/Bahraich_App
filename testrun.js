@@ -2,7 +2,7 @@ function t45(){
   let [indices,,,missingdata] = getData("MISSING")
   let[,,,data] = getData("ARCHIVE_ADDRESS")
   let count =0
-  let sheet = SpreadsheetApp.openById("1MTrqGvbcVY2D4foCWVUaaH83Fc5KVuOOyqBpXN7tUdA").getSheetByName("missing address active")
+  let sheet = SpreadsheetApp.openById("").getSheetByName("")
   let archiveColumn = sheet.getRange('L1:L500')
   for (let i =0; i<missingdata.length; i++){
     for(let j =0; j <data.length; j++){
