@@ -1,0 +1,49 @@
+//List all sheets and tabs here. Follow the existing pattern. For every new tab, add the sheet variable and the HEADER_INDEX. INDEX is ROW-1, so if row is 5 index would be 4
+//There is a SHEET variable so that if we wanted to make these independent sheets that can be done easily
+
+const ENTRY_FORM_SHEET = "1bDkyAlyUNoR4C4zwpw5mzkRZWB_rNUgbXd6Y5py8rNM"
+
+const IN_HOSPITAL_SUBMISSIONS_COPY_SHEET = "10KseZ3XsgpKMC9EwjRirevMpw3SLRigRTUU5FTZaLX0"
+const IN_HOSPITAL_SUBMISSIONS_COPY_TAB = "in hospital form submissions"
+const IN_HOSPITAL_SUBMISSIONS_COPY_HEADER_INDEX = 0
+
+
+const IN_HOSPITAL_SUBMISSIONS_SHEET = ENTRY_FORM_SHEET
+const IN_HOSPITAL_SUBMISSIONS_TAB = "in hospital form submissions"
+const IN_HOSPITAL_SUBMISSIONS_HEADER_INDEX = 0
+
+const PHONE_HOME_SUBMISSIONS_SHEET = ENTRY_FORM_SHEET
+const PHONE_HOME_SUBMISSIONS_TAB = "phone/home form submissions"
+const PHONE_HOME_SUBMISSIONS_HEADER_INDEX = 0
+
+
+
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_SHEET = ENTRY_FORM_SHEET
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_TAB = "in hospital form submissions exported"
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_HEADER_INDEX = 0
+
+const PHONE_HOME_SUBMISSIONS_EXPORTED_SHEET = ENTRY_FORM_SHEET
+const PHONE_HOME_SUBMISSIONS_EXPORTED_TAB = "phone/home form submissions exported"
+const PHONE_HOME_SUBMISSIONS_EXPORTED_HEADER_INDEX = 0
+
+
+
+const IN_HOSPITAL_EXPORT_SHEET = ENTRY_FORM_SHEET
+const IN_HOSPITAL_EXPORT_TAB = "in hospital export"
+const IN_HOSPITAL_EXPORT_HEADER_INDEX = 0
+
+const PHONE_HOME_EXPORT_SHEET = ENTRY_FORM_SHEET
+const PHONE_HOME_EXPORT_TAB = "phone/home export"
+const PHONE_HOME_EXPORT_HEADER_INDEX = 0
+
+const ADDRESS_EXPORT_SHEET = ENTRY_FORM_SHEET
+const ADDRESS_EXPORT_TAB = "address export"
+const ADDRESS_EXPORT_HEADER_INDEX = 0
+
+const GRADUATE_EXPORT_SHEET = ENTRY_FORM_SHEET
+const GRADUATE_EXPORT_TAB = "graduate_from_12Apr export"
+const GRADUATE_EXPORT_HEADER_INDEX = 0
+
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_OLD_SHEET = ENTRY_FORM_SHEET
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_OLD_TAB = "in hospital form submissions exported(old)26/04/23"
+const IN_HOSPITAL_SUBMISSIONS_EXPORTED_OLD_HEADER_INDEX = 0
